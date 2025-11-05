@@ -2,7 +2,7 @@ function Invoke-HostRecon{
 
     <#
     .USAGE
-    iex (iwr https://raw.githubusercontent.com/BankSecurity/Red_Team/master/Discovery/Host_Recon.ps1);Invoke-HostRecon
+    iex (iwr https://raw.githubusercontent.com/t3l3m3try/Red_Team/master/Discovery/Host_Recon.ps1);Invoke-HostRecon
     
     .DESCRIPTION
     This function runs a number of checks on a system to help provide situational awareness to a penetration tester during the reconnaissance phase. It gathers information about the local system, users, and domain information. It does not use any 'net', 'ipconfig', 'whoami', 'netstat', or other system commands to help avoid detection.
@@ -549,3 +549,4 @@ Disable the random delay between connection attempts.
     $report | where {$_.Status -eq "open"} | Sort-Object Port | Format-Table $columns -AutoSize
     Write-Output "[*] $tcp_count out of $total scanned ports are open!"
 }
+
